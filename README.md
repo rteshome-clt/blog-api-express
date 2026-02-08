@@ -27,3 +27,28 @@ The project was developed as part of a backend web development course to practic
 
 ## How to Access and Run the Project
 
+### Step 1: Clone the Respository
+  Open a terminal and run:
+```bash
+git clone https://github.com/your-username/blog-api-express.git
+cd blog-api-express
+```
+### Step 2: Install Dependencies
+```
+  npm install
+```
+
+### Step 3: Start the Server
+```
+  node server.js
+```
+  Once the server is running it ill be available at
+```
+    http://localhost:3000
+```
+
+### Step 4: Run Automated Tests
+```
+  chmod +x test.sh
+  ./test.sh
+```
